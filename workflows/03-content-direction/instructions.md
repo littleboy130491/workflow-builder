@@ -6,14 +6,14 @@ Define the site narrative, page structure, proof strategy, and content architect
 
 ## Expected Input
 
-- `outputs/01-strategy-foundation/strategy-brief.md`
-- `outputs/02-audience-positioning/audiences.md`
-- `outputs/02-audience-positioning/positioning.md`
-- `outputs/02-audience-positioning/decision-drivers.md`
+- `/home/henry/Desktop/projects/web-designer/outputs/01-strategy-foundation/strategy-brief.md`
+- `/home/henry/Desktop/projects/web-designer/outputs/02-audience-positioning/audiences.md`
+- `/home/henry/Desktop/projects/web-designer/outputs/02-audience-positioning/positioning.md`
+- `/home/henry/Desktop/projects/web-designer/outputs/02-audience-positioning/decision-drivers.md`
 
 ## Expected Outputs
 
-Create the following files inside `outputs/03-content-direction/`:
+Create the following files inside `/home/henry/Desktop/projects/web-designer/outputs/03-content-direction/`:
 
 - `direction-a.md`: Content direction option A with narrative logic, page roles, and proof structure
 - `direction-b.md`: Content direction option B with a meaningfully different narrative angle
@@ -35,9 +35,17 @@ Create the following files inside `outputs/03-content-direction/`:
 - Do not create cosmetic alternatives that say the same thing three ways
 - Keep the page list lean and tied to business goals
 - Separate current facts from recommended future assets
+- Do not modify files outside `/home/henry/Desktop/projects/web-designer/outputs/03-content-direction/`
 
 ## Execution Notes
 
 - Treat the three alternatives as strategic options, not rough copy drafts
 - Each direction should define headline themes, page order logic, trust-building structure, and CTA approach
 - The recommendation should explain why one direction is stronger for the company profile objective
+
+## Stop Conditions Or Approval Gates
+
+- Stop after creating `direction-a.md`, `direction-b.md`, `direction-c.md`, and `comparison.md`
+- Ask the user to approve the preferred direction before creating `recommended-direction.md`, `site-map.md`, and `asset-gap-list.md`
+- Stop and ask the user if required upstream strategy or positioning inputs are missing
+- Stop and ask the user if the only way to continue would be to invent unsupported proof or site-scope assumptions

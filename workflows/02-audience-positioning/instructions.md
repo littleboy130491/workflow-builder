@@ -6,12 +6,12 @@ Turn the strategic brief into concrete audience insight and a defensible market 
 
 ## Expected Input
 
-- `outputs/01-strategy-foundation/strategy-brief.md`
-- `outputs/01-strategy-foundation/assumptions-and-open-questions.md`
+- `/home/henry/Desktop/projects/web-designer/outputs/01-strategy-foundation/strategy-brief.md`
+- `/home/henry/Desktop/projects/web-designer/outputs/01-strategy-foundation/assumptions-and-open-questions.md`
 
 ## Expected Outputs
 
-Create the following files inside `outputs/02-audience-positioning/`:
+Create the following files inside `/home/henry/Desktop/projects/web-designer/outputs/02-audience-positioning/`:
 
 - `audiences.md`: Primary and secondary audience segments, intent, concerns, buying triggers, and objections
 - `positioning.md`: Positioning statement, differentiators, proof expectations, and competitive angle
@@ -29,8 +29,16 @@ Create the following files inside `outputs/02-audience-positioning/`:
 - Avoid fictional market claims
 - Do not confuse internal brand aspirations with audience priorities
 - Keep the positioning credible and supportable
+- Do not modify files outside `/home/henry/Desktop/projects/web-designer/outputs/02-audience-positioning/`
 
 ## Execution Notes
 
 - Focus on what the audience needs to believe before taking action
 - Surface the evidence the site will need later, even if the assets do not exist yet
+- Keep audience distinctions operational enough to influence messaging, proof, and CTA choices
+
+## Stop Conditions Or Approval Gates
+
+- Stop and ask the user if the strategy brief lacks enough information to distinguish primary from secondary audiences
+- Stop and ask the user if positioning depends on unsupported competitive claims
+- Stop and ask the user if multiple positioning directions are equally plausible and the available inputs do not justify choosing one

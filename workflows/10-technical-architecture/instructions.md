@@ -6,13 +6,13 @@ Plan the implementation approach, component architecture, content model, perform
 
 ## Expected Input
 
-- `outputs/03-content-direction/site-map.md`
-- Relevant files from `outputs/08-design-system/`
-- Relevant files from `outputs/09-high-fidelity-design/`
+- `/home/henry/Desktop/projects/web-designer/outputs/03-content-direction/site-map.md`
+- Relevant files from `/home/henry/Desktop/projects/web-designer/outputs/08-design-system/`
+- Relevant files from `/home/henry/Desktop/projects/web-designer/outputs/09-high-fidelity-design/`
 
 ## Expected Outputs
 
-Create the following files inside `outputs/10-technical-architecture/`:
+Create the following files inside `/home/henry/Desktop/projects/web-designer/outputs/10-technical-architecture/`:
 
 - `technical-plan.md`: Stack, rendering approach, content handling, SEO, and performance strategy
 - `component-map.md`: Component inventory, ownership, and relationships
@@ -29,8 +29,16 @@ Create the following files inside `outputs/10-technical-architecture/`:
 
 - Avoid vague stack choices without rationale
 - Do not rely on one-shot generation for the full build
+- Do not modify files outside `/home/henry/Desktop/projects/web-designer/outputs/10-technical-architecture/`
 
 ## Execution Notes
 
 - Define where AI accelerates work and where human review is mandatory
 - Keep the component map aligned with the page and system specs
+- Make dependencies between content, components, and infrastructure explicit enough to drive execution sequencing
+
+## Stop Conditions Or Approval Gates
+
+- Stop and ask the user if required design-system or high-fidelity-design inputs are missing
+- Stop and ask the user if deployment constraints, stack constraints, or hosting assumptions are unclear and materially affect the architecture
+- Stop and ask the user if the proposed implementation would require a major deviation from approved design or content outputs
